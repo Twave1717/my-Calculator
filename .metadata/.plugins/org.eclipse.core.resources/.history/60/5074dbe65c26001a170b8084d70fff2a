@@ -1,0 +1,17 @@
+package MyCalculator;
+
+public class MyCalculator {
+
+	public static void main(String[] args) {
+		double dnum = 3.14;
+		float fnum = 3.14f;
+		char y = 'a';
+		char K = 'วั';
+		
+		System.out.println(dnum);
+		System.out.println(fnum);
+		System.out.println(y);
+		System.out.println(K);
+	}
+
+}

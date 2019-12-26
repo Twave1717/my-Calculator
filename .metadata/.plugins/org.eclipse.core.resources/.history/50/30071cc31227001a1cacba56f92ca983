@@ -1,0 +1,13 @@
+package MyCalculator;
+
+public class MyCalculator {
+	public static void main(String[] args) {
+		
+		int num = 10;
+		char isEven;
+		isEven = ((num % 4) <= 1) ? '0 or 1' : '2 or 3';
+		System.out.println(isEven);
+		
+	}
+
+}

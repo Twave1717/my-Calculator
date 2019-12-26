@@ -1,0 +1,21 @@
+package MyCalculator;
+
+public class MyCalculator {
+	public static void main(String[] args) {
+		
+		int x = 10;
+		int y = 2;
+		
+		boolean value = ((x = x + 10) < 10) && ((y = y + 2) < 2);
+		System.out.println(value);
+		System.out.println(x);
+		System.out.println(y);
+		
+		value = ((x = x + 10) > 10) || ((y = y + 2) < 2);
+		System.out.println(value);
+		System.out.println(x);
+		System.out.println(y);
+		
+	}
+
+}

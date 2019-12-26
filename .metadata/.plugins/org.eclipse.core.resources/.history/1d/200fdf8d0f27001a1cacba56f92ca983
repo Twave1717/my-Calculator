@@ -1,0 +1,20 @@
+package MyCalculator;
+
+public class MyCalculator {
+	public static void main(String[] args) {
+		
+		int Num1 = 10;
+		int Num2 = 20;
+		
+		boolean flex = (Num1 > 0) && (Num2 > 0);
+		System.out.println(flex);
+		
+		flex = (Num1 < 0) && (Num2 > 0);
+		System.out.println(flex);
+		
+		flex = (Num1 < 0) || (Num2 > 0);
+		System.out.println(flex);
+		
+	}
+
+}

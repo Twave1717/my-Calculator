@@ -1,0 +1,9 @@
+package MyCalculator;
+
+public class MyCalculator {
+	public static void main(String[] args) {
+		final int MyAge = 16;
+		System.out.println(MyAge);
+	}
+
+}

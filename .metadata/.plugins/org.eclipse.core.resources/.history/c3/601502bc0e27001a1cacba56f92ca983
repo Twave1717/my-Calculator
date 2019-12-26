@@ -1,0 +1,21 @@
+package MyCalculator;
+
+public class MyCalculator {
+	public static void main(String[] args) {
+		
+		int gameScore = 77;
+		
+		int lastScore = gameScore++;
+		System.out.println(lastScore);
+		
+		int lastScore2 = gameScore--;
+		System.out.println(lastScore2);
+		
+		int ABC = gameScore;
+		
+		int lsatScore2 = ABC;
+		System.out.println(ABC);
+		
+	}
+
+}

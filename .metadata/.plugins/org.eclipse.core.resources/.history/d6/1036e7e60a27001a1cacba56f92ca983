@@ -1,0 +1,12 @@
+package MyCalculator;
+
+public class MyCalculator {
+	public static void main(String[] args) {
+		
+		byte Num = 10;
+		System.out.println(Num);
+	
+		
+	}
+
+}
